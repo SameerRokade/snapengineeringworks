@@ -21,6 +21,11 @@
     		font-size: 20px;
     	}
 
+    	.navbar-brand img {
+    		height: 70px;
+    		width: 70px;
+    	}
+
     	html, body{
     		background-color: #f2e8e1;
     		width: 100%;
@@ -93,6 +98,80 @@
     		border-top: 1px solid;
     	}
 
+    	@media(max-width: 992px){
+    		.social a {
+    			font-size: 4em;
+    			padding: 2rem;
+    		}
+
+    	}
+    	@media(max-width: 768px){
+    		.carousel-caption{
+    			top: 45%;
+    		}
+    		.carsoul-caption h1{
+    			font-size: 350%;
+    		}
+    		.display-4{
+    		font-size: 200%;
+
+    		}
+    		.social a {
+    		font-size: 2.5rem;
+    		padding: 1.2rem;
+    		}
+
+
+    	}
+    	@media(max-width: 576px){
+
+    		body{
+    			width: 100%;
+    		}
+    		.navbar-brand{
+    			font-size: 100%;
+    		}
+
+    		.navbar-brand img{
+    			height: 50px;
+    			width: 50px;
+    		}
+    		.carousel-caption{
+    			top: 45%;
+    		}
+    		.carousel-caption h1{
+    			font-size: 200%;
+    		}
+    		.carousel-caption h3{
+    			font-size: 110%;
+    		}
+
+    		.carousel-inner img{
+    		width: 100%;
+    		height: 400px;
+
+
+    		}
+
+    		
+    		.display-4 , .display-3{
+    		font-size: 150%;
+
+    		}
+    		.social a {
+    		font-size: 2.5rem;
+    		padding: 1.2rem;
+    		}
+
+    		.lead{
+    			font-size: 90%;
+    		}
+
+    		footer #copy {
+    			font-size: 80%;
+    		}
+    	}
+
     	
 
     	
@@ -103,7 +182,7 @@
 <body>
 	<nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
 		<div class="container-fluid">
-			<a class="navbar-brand" href="#" style="color: #381e57;"><img src="img/logo.png" style="height: 70px; width: 70px"> <strong>SNAP ENGINEERING
+			<a class="navbar-brand" href="#" style="color: #381e57;"><img src="img/logo.png"> <strong>SNAP ENGINEERING
 			</strong> </a>
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
 				<span class="navbar-toggler-icon"></span>
@@ -272,7 +351,7 @@
 				</div>
 				<div class="col-12">
 					<hr class="light">
-					<h5>&copy: snap engineering Designed by: Sameer Rokade</h5>
+					<h5 id="copy">&copy: snap engineering Designed by: Sameer Rokade</h5>
 				</div>
 				
 			</div>
