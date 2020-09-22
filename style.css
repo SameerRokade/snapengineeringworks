@@ -1,0 +1,369 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+    	.nav-item{
+    		padding-right: 40px;
+    		font-size: 20px;
+    	}
+
+    	.navbar-brand img {
+    		height: 70px;
+    		width: 70px;
+    	}
+
+    	html, body{
+    		background-color: #f5f5f5;
+    		width: 100%;
+    		height: 100%;
+    		color: #5543ca;
+    		font-family: 'Poppins', sans-serif;
+    	}
+
+    	footer {
+    		background-color: white;
+    		color: #222;
+    	}
+
+    	.carousel-inner img{
+    		width: 100%;
+    		height: 600px;
+
+
+    	}
+
+    	.carousel-caption{
+    		transform: translateY(-50%);
+    		position: absolute;
+    		top: 50%;
+    	}
+
+    	.display-4{
+    		padding-top: 40px;
+    	}
+
+    	.welcome{
+    		width: 75%;
+    		margin: 0 auto;
+    	} 
+
+    	.welcome hr{
+    		width: 95%;
+    		margin-top: .3rem;
+    		margin-bottom: 1rem;
+    	} 
+
+    	.social a {
+    		font-size: 4.5rem;
+    		padding: 3rem;
+    	}
+
+    	.fa-facebook{
+    		color: #3b5998;
+    	}
+
+    	.fa-twitter{
+    		color: #00aced;
+    	}
+
+    	.fa-instagram{
+    		color: #fb3958;
+    	}
+
+    	.fa-youtube {
+    		color: red;
+    	}
+
+    	#connect{
+    		padding-top: 40px;
+    		padding-bottom: 40px;
+    	}
+
+    	#connect hr{
+    		width: 75%;
+    		height: 30px;
+
+    	}
+    	.card{
+    		position: relative;
+			box-shadow: 0 10px 30px 0px rgba(0,0,0,0.1);
+			text-align: center;
+			align-content: center;
+
+    	}
+
+		.container-fluid{
+			position: relative;
+			box-shadow: 0 10px 30px 0px rgba(0,0,0,0.1);
+			text-align: center;
+			align-content: center;
+		}
+
+    	.card button{
+    		border: none;
+    	}
+
+    	.nav-link{
+    		color: #5543ca;
+    	}
+    	
+
+    	hr {
+    		border-top: 1px solid;
+    	}
+
+    	footer #copy {
+    			font-size: 100%;
+    			background-color: white;
+    		}
+
+    	@media(max-width: 992px){
+    		.social a {
+    			font-size: 4em;
+    			padding: 2rem;
+    		}
+
+    	}
+    	@media(max-width: 768px){
+    		.carousel-caption{
+    			top: 45%;
+    		}
+    		.carsoul-caption h1{
+    			font-size: 350%;
+    		}
+    		.display-4{
+    		font-size: 200%;
+
+    		}
+    		.social a {
+    		font-size: 2.5rem;
+    		padding: 1.2rem;
+    		}
+
+
+
+
+    	}
+    	@media(max-width: 576px){
+
+    		body{
+    			width: 100%;
+    		}
+    		.navbar-brand{
+    			font-size: 100%;
+    		}
+
+    		.navbar-brand img{
+    			height: 40px;
+    			width: 40px;
+    		}
+    		.carousel-caption{
+    			top: 45%;
+    		}
+    		.carousel-caption h1{
+    			font-size: 200%;
+    		}
+    		.carousel-caption h3{
+    			font-size: 110%;
+    		}
+
+    		.carousel-inner img{
+    		width: 100%;
+    		height: 400px;
+
+
+    		}
+
+    		
+    		.display-4 , .display-3{
+    			font-size: 150%;
+    			color: #5543ca;
+				background: linear-gradient(to right, #f4534d 0%, #5543ca 100%);
+				-webkit-background-clip: text;
+				-webkit-text-fill-color: transparent;
+
+    		}
+    		.social a {
+    		font-size: 2.5rem;
+    		padding: 1.2rem;
+    		}
+
+    		.lead{
+    			font-size: 100%;
+    		}
+
+    		footer #copy {
+    			font-size: 80%;
+    		}
+
+
+    		.nav-item > a{
+				position: relative;
+  				color: #000;
+  				text-decoration: none;
+			}
+
+			.nav-item > a:hover{
+				color: #000;
+			}
+
+			.nav-item > a::before {
+  				content: "";
+ 				position: absolute;
+  				width: 100%;
+  				height: 2px;
+  				bottom: 0;
+  				left: 0;
+  				background-color: #000;
+  				visibility: hidden;
+  				transform: scaleX(0);
+  				transition: all 0.3s ease-in-out 0s;
+			}
+
+			.nav-item > a:hover::before {
+  				visibility: visible;
+  				transform: scaleX(0.5);
+			}
+
+			.nav-link{
+				text-align: center;
+			}
+
+            .get_in_touch .title{
+            font-size: 1.5em;
+           }
+
+			
+
+
+    	}
+
+		@media(min-width: 900px){
+			.nav-item > a{
+				position: relative;
+  				color: #000;
+  				text-decoration: none;
+			}
+
+			.nav-item > a:hover{
+				color: #000;
+			}
+
+			.nav-item > a::before {
+  				content: "";
+ 				position: absolute;
+  				width: 100%;
+  				height: 2px;
+  				bottom: 0;
+  				left: 0;
+  				background-color: #000;
+  				visibility: hidden;
+  				transform: scaleX(0);
+  				transition: all 0.3s ease-in-out 0s;
+			}
+
+			.nav-item > a:hover::before {
+  				visibility: visible;
+  				transform: scaleX(1);
+			}
+
+			.display-4 , .display-3{
+    			font-size: 250%;
+    			color: #5543ca;
+				background: linear-gradient(to right, #f4534d 0%, #5543ca 100%);
+				-webkit-background-clip: text;
+				-webkit-text-fill-color: transparent;
+
+    		}
+    		.social a {
+    		font-size: 4rem;
+    		
+    		padding-left: 80px;
+    		padding-right: 80px;
+    	   }
+
+           .get_in_touch .title{
+            font-size: 2.5em;
+           }
+		}
+
+		.get_in_touch{
+			max-width: 800px;
+			margin: 50px auto;
+			position: relative;
+			box-shadow: 0 10px 30px 0px rgba(0,0,0,0.1);
+			padding: 30px;
+		}
+
+		.get_in_touch .title{
+			text-transform: capitalize;
+			text-align: center;
+			letter-spacing: 1px;
+			line-height: 48px;
+			padding-bottom: 20px;
+			color: #5543ca;
+			background: linear-gradient(to right, #f4534d 0%, #5543ca 100%);
+			-webkit-background-clip: text;
+			-webkit-text-fill-color: transparent;
+		}
+		.contact-form .form-field{
+			position: relative ;
+			margin: 32px 0;
+
+		}
+		.contact-form .input-text{
+			display: block;
+			width: 100%;
+			height: 36px;
+			border-width: 0 0 2px 0;
+			border-color: #5543ca;
+			font-size: 18px;
+			line-height: 26px;
+			font-weight: 400;
+			padding-left: 5px;
+			background-color: #f5f5f5;
+
+		}
+		.contact-form .input-text:focus + .label,
+		.contact-form .input-text.not-empty + .label{
+			transform: translateY(-25px);
+		}
+		.contact-form .input-text:focus{
+			outline: none;
+		}
+
+		.contact-form .label{
+			position: absolute;
+			left: 20px;
+			bottom: 11px;
+			font-size: 18px;
+			line-height: 26px;
+			font-weight: 400;
+			color: #5543ca;
+			cursor: text;
+			text-transform: capitalize;
+			transition: transform 0.2s ease-in-out;
+			margin-bottom: 20px;
+			
+
+
+		}
+
+		.contact-form .submit-btn{
+			display: inline-block;
+			background-image: linear-gradient(125deg, #a72879, #064497);
+			color: #fff;
+			text-transform: uppercase;
+			letter-spacing: 2px;
+			font-size: 16px;
+			padding: 8px 16px;
+			border: none;
+			width: 200px;
+			cursor: pointer;
+			text-align: center;
+		}
+
+		#logo_name{
+			color: #5543ca;
+			background: linear-gradient(to right, #f4534d 0%, #5543ca 100%);
+			-webkit-background-clip: text;
+			-webkit-text-fill-color: transparent;
+		}

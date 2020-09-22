@@ -13,182 +13,21 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script> 
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 
-    <style type="text/css">
-    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+    <link rel="stylesheet" href="style.css">
 
-    	.nav-item{
-    		padding-right: 40px;
-    		font-size: 20px;
-    	}
-
-    	.navbar-brand img {
-    		height: 70px;
-    		width: 70px;
-    	}
-
-    	html, body{
-    		background-color: #f2e8e1;
-    		width: 100%;
-    		height: 100%;
-    		color: #222;
-    		font-family: 'Poppins', sans-serif;
-    	}
-
-    	.carousel-inner img{
-    		width: 100%;
-    		height: 600px;
-
-
-    	}
-
-    	.carousel-caption{
-    		transform: translateY(-50%);
-    		position: absolute;
-    		top: 50%;
-    	}
-
-    	.display-4{
-    		padding-top: 40px;
-    	}
-
-    	.welcome{
-    		width: 75%;
-    		margin: 0 auto;
-    	} 
-
-    	.welcome hr{
-    		width: 95%;
-    		margin-top: .3rem;
-    		margin-bottom: 1rem;
-    	} 
-
-    	.social a {
-    		font-size: 4.5rem;
-    		padding: 3rem;
-    	}
-
-    	.fa-facebook{
-    		color: #3b5998;
-    	}
-
-    	.fa-twitter{
-    		color: #00aced;
-    	}
-
-    	.fa-instagram{
-    		color: #fb3958;
-    	}
-
-    	.fa-youtube {
-    		color: red;
-    	}
-
-    	#connect{
-    		padding-top: 40px;
-    		padding-bottom: 40px;
-    	}
-
-    	#connect hr{
-    		width: 75%;
-    		height: 30px;
-
-    	}
-
-    	hr {
-    		border-top: 1px solid;
-    	}
-
-    	@media(max-width: 992px){
-    		.social a {
-    			font-size: 4em;
-    			padding: 2rem;
-    		}
-
-    	}
-    	@media(max-width: 768px){
-    		.carousel-caption{
-    			top: 45%;
-    		}
-    		.carsoul-caption h1{
-    			font-size: 350%;
-    		}
-    		.display-4{
-    		font-size: 200%;
-
-    		}
-    		.social a {
-    		font-size: 2.5rem;
-    		padding: 1.2rem;
-    		}
-
-
-    	}
-    	@media(max-width: 576px){
-
-    		body{
-    			width: 100%;
-    		}
-    		.navbar-brand{
-    			font-size: 100%;
-    		}
-
-    		.navbar-brand img{
-    			height: 50px;
-    			width: 50px;
-    		}
-    		.carousel-caption{
-    			top: 45%;
-    		}
-    		.carousel-caption h1{
-    			font-size: 200%;
-    		}
-    		.carousel-caption h3{
-    			font-size: 110%;
-    		}
-
-    		.carousel-inner img{
-    		width: 100%;
-    		height: 400px;
-
-
-    		}
-
-    		
-    		.display-4 , .display-3{
-    		font-size: 150%;
-
-    		}
-    		.social a {
-    		font-size: 2.5rem;
-    		padding: 1.2rem;
-    		}
-
-    		.lead{
-    			font-size: 90%;
-    		}
-
-    		footer #copy {
-    			font-size: 80%;
-    		}
-    	}
-
-    	
-
-    	
-
-    </style>
+    
 
 </head>
 <body>
 	<nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
 		<div class="container-fluid">
-			<a class="navbar-brand" href="#" style="color: #381e57;"><img src="img/logo.png"> <strong>SNAP ENGINEERING
+			<a class="navbar-brand" href="#"><img src="img/logo.png"> <strong id="logo_name">SNAP ENGINEERING WORKS
 			</strong> </a>
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
 				<span class="navbar-toggler-icon"></span>
 			</button>
-			<div class="collapse navbar-collapse" id="navbarResponsive">
-				<ul class="navbar-nav ml-auto">
+			<div class="collapse navbar-collapse justify-content-center order-2" id="navbarResponsive">
+				<ul class="navbar-nav ml-auto justify-content-center">
 					<li class="nav-item">
 						<a class="nav-link active" href="#">Home</a>
 					</li>
@@ -242,9 +81,13 @@
 		</div>
 
 	</div>
+	<div class="spinner">
+  	<div class="dot1"></div>
+  	<div class="dot2"></div>
+	</div>
 	<div class="container-fluid padding">
-		<div class="row welcome text-center">
-			<div class="col-12">
+		<div class="row welcome text-center" style="padding-bottom: 30px">
+			<div class="col-12" style="padding-bottom: 30px">
 				<h1 class="display-4"> Engineering to the finest</h1>				
 			</div>
 			<div class="col-12">
@@ -258,9 +101,9 @@
 	</div>
 	<div class="container-fluid padding">
 		<div class="row welcome text-center">
-			<div class="col-12">
+			<div class="col-12" style="padding-bottom: 30px">
 				<h1 class="display-4"> Meet the Team</h1>
-				<hr>
+				
 			</div>
 			
 		</div>
@@ -275,7 +118,7 @@
 					<div class="card-body">
 						<h4 class="card-title">Sandesh Devkar</h4>
 						<p class="card-text"> Sandesh is the CEO of our compnay and has 10 plus years of experience in the field of engineering.</p>
-						<a href="#" class="btn btn-outline-secondary">See Profile</a>
+						<a href="#" class="btn btn-outline-primary">See Profile</a>
 					</div>
 				</div>
 			</div>
@@ -285,7 +128,7 @@
 					<div class="card-body">
 						<h4 class="card-title">Sandesh Devkar</h4>
 						<p class="card-text"> Sandesh is the CEO of our compnay and has 10 plus years of experience in the field of engineering.</p>
-						<a href="#" class="btn btn-outline-secondary">See Profile</a>
+						<a href="#" class="btn btn-outline-primary">See Profile</a>
 					</div>
 				</div>
 			</div>
@@ -295,13 +138,50 @@
 					<div class="card-body">
 						<h4 class="card-title">Sandesh Devkar</h4>
 						<p class="card-text"> Sandesh is the CEO of our compnay and has 10 plus years of experience in the field of engineering.</p>
-						<a href="#" class="btn btn-outline-secondary">See Profile</a>
+						<a href="#" class="btn btn-outline-primary">See Profile</a>
 					</div>
 				</div>
 			</div>
 			
 		</div>
 		
+	</div>
+
+	<!-- contact -->
+	<div class="container">
+	<section class="get_in_touch">
+		<h1 class="title"> Get in Touch</h1>
+
+		<div class="container">
+			<div class="contact-form row">
+				<div class="form-field col-md-6">
+					<input id="name" class="input-text" type="text" name="">
+					<label for="name" class="label">name</label>
+				</div>
+				<div class="form-field col-md-6">
+					<input id="email" class="input-text" type="email" name="">
+					<label for="email" class="label">email</label>
+				</div>
+				<div class="form-field col-md-6">
+					<input id="company" class="input-text" type="text" name="">
+					<label for="company" class="label">company name</label>
+				</div>
+				<div class="form-field col-md-6">
+					<input id="phone" class="input-text" type="text" name="">
+					<label for="phone" class="label">contact number</label>
+				</div>
+				<div class="form-field col-md-12">
+					<input id="message" class="input-text" type="text" name="">
+					<label for="message" class="label">message</label>
+				</div>
+				<div class="form-field col-md-12">
+					<input id="message" class="submit-btn" type="submit" value="submit" name="">
+					
+				</div>
+			</div>
+		</div>
+
+	</section>
 	</div>
 
 	<!-- Connect -->
@@ -321,7 +201,7 @@
 	</div>
 
 	<!-- Footer -->
-	<footer class="bg-light">
+	<footer>
 		<div class="container-fluid padding">
 			<div class="row text-center">
 				<div class="col-md-4">
@@ -351,7 +231,19 @@
 				</div>
 				<div class="col-12">
 					<hr class="light">
-					<h5 id="copy">&copy: snap engineering Designed by: Sameer Rokade</h5>
+				</div>
+				<div class="container-fluid padding">
+					<div class="row padding">
+					
+					<div class="col-md-6">
+						<h5 id="copy"> Copyright &copy 2020 Snap Engineering Works</h5>
+					</div>
+					<div class="col-md-6">
+						<h5 id="copy"> Designed by: Sameer Rokade</h5>
+					</div>
+					</div>
+					
+					
 				</div>
 				
 			</div>
