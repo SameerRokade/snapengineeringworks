@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
-
+        
     	.nav-item{
     		padding-right: 40px;
     		font-size: 20px;
@@ -16,12 +16,18 @@
     		height: 100%;
     		color: #5543ca;
     		font-family: 'Poppins', sans-serif;
+            scroll-behavior: smooth;
     	}
 
     	footer {
-    		background-color: white;
-    		color: #222;
+    		background-color: #878583;
+    		color: white;
+            letter-spacing: 0.07em;
     	}
+
+        #copy{
+            background-color: #878583;
+        }
 
     	.carousel-inner img{
     		width: 100%;
@@ -367,3 +373,43 @@
 			-webkit-background-clip: text;
 			-webkit-text-fill-color: transparent;
 		}
+
+/* Products content */
+
+        .product-grid6,.product-grid6 .product-image6{overflow:hidden}
+.product-grid6{font-family:'Open Sans',sans-serif;text-align:center;position:relative;transition:all .5s ease 0s}
+.product-grid6:hover{box-shadow:0 0 10px rgba(0,0,0,.3)}
+.product-grid6 .product-image6 a{display:block}
+.product-grid6 .product-image6 img{width:100%;height:auto;transition:all .5s ease 0s}
+.product-grid6:hover .product-image6 img{transform:scale(1.1)}
+.product-grid6 h5{ padding: 7px; color: #222 }
+.product-grid6 .title{font-size:20px;font-weight:600;text-transform:capitalize;margin:0 0 10px;transition:all .3s ease 0s}
+.product-grid6 .title a{color:#000}
+.product-grid6 .title a:hover{color:#2e86de}
+.product-grid6 .price{font-size:18px;font-weight:600;color:#2e86de}
+.product-grid6 .price span{color:#999;font-size:15px;font-weight:400;text-decoration:line-through;margin-left:7px;display:inline-block}
+.product-grid6 .social{background-color:#fff;width:100%;padding:0;margin:0;list-style:none;opacity:0;transform:translateX(-50%);position:absolute;bottom:-50%;left:50%;z-index:1;transition:all .5s ease 0s}
+
+
+@media only screen and (max-width:990px){.product-grid6{margin-bottom:30px}
+}
+
+
+.gotopbtn{
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    background: grey;
+    bottom: 40px;
+    right: 50px;
+    z-index: 100;
+    text-decoration: none;
+    text-align: center;
+    line-height: 50px;
+    color: white;
+    font-size: 22px;
+
+}
+
+/* clients content */
+
